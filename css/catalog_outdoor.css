@@ -1,0 +1,172 @@
+.outdoor {
+  display: none;
+  gap: 25px;
+  -ms-grid-rows: (270px)[5];
+  -ms-grid-columns: (1fr)[4];
+      grid-template: repeat(5, 270px)/repeat(4, 1fr);
+}
+
+.outdoor__picture_1 {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.outdoor__picture_2 {
+  grid-row: span 2;
+  grid-column: span 1;
+}
+
+.outdoor__picture_3 {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.outdoor__picture_4 {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.outdoor__picture_5 {
+  grid-row: span 1;
+  grid-column: span 2;
+}
+
+.outdoor__picture_6 {
+  grid-row: span 2;
+  grid-column: span 1;
+}
+
+.outdoor__picture_7 {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.outdoor__picture_8 {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.outdoor__picture_9 {
+  grid-row: span 2;
+  grid-column: span 1;
+}
+
+.outdoor__picture_10 {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.outdoor__picture_11 {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.outdoor__picture_12 {
+  grid-row: span 1;
+  grid-column: span 2;
+}
+
+@media (max-width: 1100px) {
+  .outdoor {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-rows: (25vw)[6];
+        grid-template-rows: repeat(6, 25vw);
+    margin-top: 3vw;
+    gap: 2vw;
+  }
+  .outdoor__picture_3 {
+    grid-row: span 1;
+    grid-column: span 1;
+  }
+  .outdoor__picture_5 {
+    grid-row: span 2;
+    grid-column: span 1;
+  }
+}
+
+@media (max-width: 690px) {
+  .outdoor {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (33vw)[10];
+        grid-template-rows: repeat(10, 33vw);
+    margin-top: 30px;
+    gap: 20px;
+  }
+  .outdoor__picture_10 {
+    grid-row: span 2;
+    grid-column: span 1;
+  }
+  .outdoor__picture_12 {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 555px) {
+  .outdoor {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (35vw)[24];
+        grid-template-rows: repeat(24, 35vw);
+    margin-top: 30px;
+    gap: 20px;
+  }
+  .outdoor__picture_1 {
+    grid-row: span 3;
+    grid-column: span 1;
+  }
+  .outdoor__picture_2 {
+    grid-row: span 2;
+    grid-column: span 1;
+  }
+  .outdoor__picture_3 {
+    grid-row: span 2;
+    grid-column: span 1;
+  }
+  .outdoor__picture_4 {
+    grid-row: span 2;
+    grid-column: span 1;
+  }
+  .outdoor__picture_5 {
+    grid-row: span 2;
+    grid-column: span 1;
+  }
+  .outdoor__picture_6 {
+    grid-row: span 3;
+    grid-column: span 1;
+  }
+  .outdoor__picture_7 {
+    grid-row: span 2;
+    grid-column: span 1;
+  }
+  .outdoor__picture_8 {
+    grid-row: span 2;
+    grid-column: span 1;
+  }
+  .outdoor__picture_9 {
+    grid-row: span 2;
+    grid-column: span 1;
+  }
+  .outdoor__picture_10 {
+    grid-row: span 2;
+    grid-column: span 1;
+  }
+  .outdoor__picture_11 {
+    grid-row: span 2;
+    grid-column: span 1;
+  }
+  .outdoor__picture_12 {
+    grid-row: span 3;
+    grid-column: span 1;
+  }
+  .outdoor__picture_13 {
+    grid-row: span 2;
+    grid-column: span 1;
+  }
+  .outdoor__picture_14 {
+    grid-row: span 3;
+    grid-column: span 1;
+  }
+}
